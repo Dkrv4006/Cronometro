@@ -58,10 +58,7 @@ font-weight: 600;
 .btn:hover{
     background-color: rgb(17, 0, 255);
     color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 10px 50px;
-    margin: 0;
-
+    border: 1px solid #ffffff;
 }
 
 .btn1{
