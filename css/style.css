@@ -68,10 +68,7 @@ button{
     margin-left: 10px;
     padding: 10px;
 }
-.btn1:hover {
-    background-color:transparent;
-    color: rgb(255, 255, 255);
-}
+
 .container{
     display: none;
 }
@@ -139,6 +136,13 @@ button{
         font-size: 15px;
         padding: 10px 20px;
     }
+    .btn1{
+        width: 100px;
+    }
+    .container {
+        height: 40vh;
+        width: 100px;
+    }
 
 
     
@@ -162,6 +166,7 @@ button{
         width: 80vw;
     }
     .container{
+        height: 40vh;
         width: 100px;
     }
     h4{
