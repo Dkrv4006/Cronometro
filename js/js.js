@@ -38,7 +38,6 @@ pausar.addEventListener('click',function(event){
 
 })
 zerar.addEventListener('click',function(event){
-    console.log(timer)
     clearInterval(timer);
      relogio.style.color = "#ffffff"
     relogio.innerHTML = '00:00:00'
@@ -46,21 +45,12 @@ zerar.addEventListener('click',function(event){
 })
 
 salva.addEventListener('click',function(event){
-    console.log(timer)
-    // clearInterval(timer);
-    // relogio.innerHTML = '00:00:00'
-    // segundos = 0;
     let salvo = relogio.textContent
     const title = document.createElement('h4')
     title.setAttribute('class','daniel')
     const texto = document.createTextNode(salvo)
     title.appendChild(texto)
-
     document.querySelector('.container').appendChild(title)
-  
-     
-    console.log(title)
-    localStorage.setItem("a",texto.textContent)
 
 })
 
@@ -76,32 +66,15 @@ mostra.addEventListener('click',function(event){
         botton.lastElementChild.innerHTML = 'mostra'
         
     }else{
-    
         container.style.display = "block";
         container.classList.toggle('daniel')
         apagar.style.display = 'block'
-        
         botton.lastElementChild.innerHTML = 'feixa'
 
     }
-    
-    
-    
-
-    
+       
 })
-    
-
-
-
-
 apagar.addEventListener('click',function(event){
     container.innerHTML = ''
 
 })
-
-
-// function carregar(){
-//     if(localStorage.info){
-//     document.getElementById ("dado").value = localStorage.info;}
-
