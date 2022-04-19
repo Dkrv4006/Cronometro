@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+h4{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+#containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(17, 0, 255);
+    border-radius: 20px;
+
+}
+
+.relogio{
+    font-size: 150px;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: #ffffff;
+
+}
+
+button{
+border-radius: 20px;
+font-weight: 600;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-top: 20px;
+    list-style: none;
+    border: none;
+
+}
+.btn:hover{
+    background-color: rgb(17, 0, 255);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px 50px;
+    margin: 0;
+
+}
+
+.btn1{
+    width: 130px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.btn1:hover {
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: none;
+}
+
+
+.container{
+    background-color: rgb(17, 0, 255);
+    overflow-y: scroll;
+    width: 130px;
+    height: 555px;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 15px;
+}
+  
+.apagar{
+    display: none;
+    
+}
+
+.container::-webkit-scrollbar-thumb{
+    width: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.container::-webkit-scrollbar{
+    width: 10px;
+    background-color: aliceblue;
+    
+    border-radius: 20px;
+}
+@media screen and (max-width: 1200px) {
+
+    button{
+        padding: 10px 30px;
+    }
+
+    .relogio {
+        font-size: 100px;
+        padding: 10px;
+        margin-bottom: 50px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 765px){
+
+    h1{
+        font-size: 40px;
+    }
+    .relogio{
+        font-size: 50px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+
+    
+}
+
+
+
